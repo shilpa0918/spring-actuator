@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+info:
+  application:
+    name: spring-actuator
+    description: spring 2.0 application
+    artifact: spring actuator
+    version: 2.0
